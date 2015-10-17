@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test mocha",
-    "test-cover": "istanbul cover _mocha -- -u exports"
+    "test-cover": "istanbul cover _mocha -- -u exports",
+    "dist": "browserify index.js -s BaseSettings -o dist/baseSettings.js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
     "lodash": "^3.10.1"
   },
   "devDependencies": {
+    "browserify": "^11.2.0",
     "coveralls": "^2.11.4",
     "istanbul": "^0.4.0",
     "mocha": "^2.3.3",
@@ -40,6 +42,7 @@
     "package.json",
     "index.js",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "dist/"
   ]
 }
