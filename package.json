@@ -4,7 +4,8 @@
   "description": "settings Base Class like node express, get/set enable/disable enabled/disabled",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test mocha"
+    "test": "NODE_ENV=test mocha",
+    "test-cover": "istanbul cover _mocha -- -u exports"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,14 @@
   "bugs": {
     "url": "https://github.com/magicdawn/base-settings/issues"
   },
-  "homepage": "https://github.com/magicdawn/base-settings#readme"
+  "homepage": "https://github.com/magicdawn/base-settings#readme",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.4.0",
+    "mocha": "^2.3.3",
+    "should": "^7.1.0"
+  }
 }
