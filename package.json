@@ -1,6 +1,6 @@
 {
   "name": "base-settings",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "settings Base Class like node express, get/set enable/disable enabled/disabled",
   "main": "index.js",
   "scripts": {
