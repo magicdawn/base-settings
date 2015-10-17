@@ -1,0 +1,29 @@
+{
+  "name": "base-settings",
+  "version": "0.0.1",
+  "description": "settings Base Class like node express, get/set enable/disable enabled/disabled",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicdawn/base-settings.git"
+  },
+  "keywords": [
+    "class",
+    "settings",
+    "get",
+    "set",
+    "enable",
+    "disable",
+    "enabled",
+    "disabled"
+  ],
+  "author": "magicdawn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magicdawn/base-settings/issues"
+  },
+  "homepage": "https://github.com/magicdawn/base-settings#readme"
+}
