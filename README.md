@@ -7,6 +7,11 @@ settings Base Class like node express, get/set enable/disable enabled/disabled
 [![npm](https://img.shields.io/npm/dm/base-settings.svg)](https://www.npmjs.com/package/base-settings)
 [![npm](https://img.shields.io/npm/l/base-settings.svg)](http://magicdawn.mit-license.org)
 
+## Target
+ES5 environment
+- node.js
+- browser
+
 ## Install
 ```
 $ npm i base-settings --save
