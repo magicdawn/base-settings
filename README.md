@@ -1,4 +1,6 @@
 # base-settings
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/magicdawn/base-settings.svg)](https://greenkeeper.io/)
 settings Base Class like node express, get/set enable/disable enabled/disabled
 
 [![Build Status](https://travis-ci.org/magicdawn/base-settings.svg?branch=master)](https://travis-ci.org/magicdawn/base-settings)
